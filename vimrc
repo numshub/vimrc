@@ -9,10 +9,12 @@ set number
 set expandtab
 set tabstop=4
 set softtabstop=4
+set wildmenu
+set guioptions-=T " No toolbar
 
 "Key bindings
 
-let mapleader = ","
+let mapleader = ','
 nnoremap <Leader>ve :edit $MYVIMRC<CR>
 nnoremap <Leader>vs :source $MYVIMRC<CR>
 noremap <Right> <Nop>
@@ -21,7 +23,17 @@ noremap <Up> <Nop>
 noremap <Down> <Nop>
 nnoremap j gj
 nnoremap k gk
-nnoremap ü <C-]>
+nnoremap ü <C-]>  # Reasonable for German keyboard
+let backspace='indent,eol,start'
+
+" Backups & Undos
+set backup
+set writebackup
+set backupdir=~/.tmp
+set undofile
+set undodir=~/.undo
+
+" Autocommands
 
 " Plugins
 

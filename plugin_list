@@ -1,5 +1,8 @@
 call plug#begin('~/.vim/plugged')
 Plug 'sjl/badwolf'
+Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'w0rp/ale'
+Plug 'scrooloose/nerdtree' 
 call plug#end()

@@ -1,3 +1,8 @@
 " Powerline
 
 let g:airline_detect_spell=1
+
+" NERDTree
+
+let NERDTreeChDirMode=2
+noremap <Leader>nt :NERDTreeToggle<CR>
