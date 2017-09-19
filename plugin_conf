@@ -1,0 +1,3 @@
+" Powerline
+
+let g:airline_detect_spell=1

@@ -19,8 +19,15 @@ noremap <Right> <Nop>
 noremap <Left> <Nop>
 noremap <Up> <Nop>
 noremap <Down> <Nop>
+nnoremap j gj
+nnoremap k gk
+nnoremap ü <C-]>
 
 " Plugins
 
 source ~/.vim/plugin_list
 source ~/.vim/plugin_conf
+
+"Colors
+
+colorscheme badwolf
