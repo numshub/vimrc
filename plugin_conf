@@ -1,4 +1,5 @@
-" Powerline
+" vim:syntax=vim
+" Airline
 
 let g:airline_detect_spell=1
 
@@ -6,3 +7,22 @@ let g:airline_detect_spell=1
 
 let NERDTreeChDirMode=2
 noremap <Leader>nt :NERDTreeToggle<CR>
+
+" Gundo.vim
+
+nnoremap <leader>u :GundoToggle<CR>
+
+" Ack.vim
+
+let g:ackprg = 'ag --vimgrep'
+
+" CtrlP
+
+let g:ctrlp_match_window = 'bottom,order:ttb'
+let g:ctrlp_switch_buffer = 0
+let g:ctrlp_working_path_mode = 0
+let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
+
+" thesaurus_query.vim
+
+let g:tq_openoffice_en_file='/usr/share/mythes/th_en_GB_v2'
