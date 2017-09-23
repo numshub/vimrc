@@ -10,4 +10,7 @@ Plug 'sjl/gundo.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'mattn/emmet-vim'
 Plug 'ron89/thesaurus_query.vim'
+Plug 'tpope/vim-surround'
+Plug 'scrooloose/nerdcommenter'
+Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 call plug#end()
