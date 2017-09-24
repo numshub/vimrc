@@ -12,7 +12,7 @@ set tabstop=4
 set softtabstop=4
 set wildmenu
 set guioptions-=T " No toolbar
-set guifont=Source\ Code\ Pro\ For\ Powerline\ 12
+set guifont=SourceCodePro\ Nerd\ Font\ Mono\ 12
 set cursorline
 filetype indent on
 set lazyredraw
