@@ -12,7 +12,13 @@ set tabstop=4
 set softtabstop=4
 set wildmenu
 set guioptions-=T " No toolbar
-set guifont=SourceCodePro\ Nerd\ Font\ Mono\ 12
+
+if has('win32') || has ('win64')
+        set guifont=SauceCodePro_NF:h11:cANSI:qDRAFT
+else
+        set guifont=SourceCodePro\ Nerd\ Font\ Mono\ 12
+endif
+
 set cursorline
 filetype indent on
 set lazyredraw
@@ -97,8 +103,14 @@ endfunction
 
 " Plugins {{{
 
-source ~/.vim/plugin_list
-source ~/.vim/plugin_conf
+if has('win32') || has ('win64')
+        let $VIMHOME = $HOME."/vimfiles"
+else
+        let $VIMHOME = $HOME."/.vim"
+endif
+
+source $VIMHOME/plugin_list
+source $VIMHOME/plugin_conf
 " }}}
 
 "Colors {{{
