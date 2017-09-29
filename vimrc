@@ -58,11 +58,17 @@ let backspace='indent,eol,start'
 
 " Backups & Undos {{{
 
+if has('win32') || has ('win64')
+        let $VIMHOME = $HOME."/vimfiles"
+else
+        let $VIMHOME = $HOME."/.vim"
+endif
+
 set backup
 set writebackup
-set backupdir=~/.tmp
+set backupdir=$VIMHOME/tmp
 set undofile
-set undodir=~/.undo
+set undodir=$VIMHOME/undo
 " }}}
 
 " Autocommands {{{
@@ -101,11 +107,6 @@ endfunction
 
 " Plugins {{{
 
-if has('win32') || has ('win64')
-        let $VIMHOME = $HOME."/vimfiles"
-else
-        let $VIMHOME = $HOME."/.vim"
-endif
 
 source $VIMHOME/plugin_list
 source $VIMHOME/plugin_conf
