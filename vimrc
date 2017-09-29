@@ -16,7 +16,7 @@ set guioptions-=T " No toolbar
 if has('win32') || has ('win64')
         set guifont=SauceCodePro_NF:h11:cANSI:qDRAFT
 else
-        set guifont=SourceCodePro\ Nerd\ Font\ Mono\ 12
+        set guifont=SauceCodePro\ Nerd\ Font\ Mono\ 12
 endif
 
 set cursorline
