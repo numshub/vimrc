@@ -26,3 +26,7 @@ let g:ackprg = 'ag --vimgrep'
 " thesaurus_query.vim
 
 let g:tq_openoffice_en_file='/usr/share/mythes/th_en_GB_v2'
+
+" fugitive.vim
+
+nnoremap <Leader>gs :Gstatus<CR>
