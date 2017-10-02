@@ -70,6 +70,7 @@ set writebackup
 set backupdir=$VIMHOME/tmp
 set undofile
 set undodir=$VIMHOME/undo
+set directory=$VIMHOME/tmp
 " }}}
 
 " Autocommands {{{
