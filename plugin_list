@@ -18,4 +18,5 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'numshub/riv.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-scriptease'
 call plug#end()
