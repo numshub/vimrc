@@ -2,6 +2,7 @@
 
 set nocompatible
 syntax enable
+set shellslash
 " }}}
 
 "Visual improvements {{{

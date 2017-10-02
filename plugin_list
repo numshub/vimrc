@@ -17,4 +17,5 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'numshub/riv.vim'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
