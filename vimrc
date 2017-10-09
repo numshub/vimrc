@@ -26,6 +26,11 @@ set lazyredraw
 set showmatch
 nnoremap gV `[v`]
 let mapleader = ','
+
+if (has("termguicolors"))
+ set termguicolors
+endif
+
 " }}}
 
 "Searching {{{
@@ -116,7 +121,7 @@ source $VIMHOME/plugin_conf
 
 "Colors {{{
 
-colorscheme badwolf
+colorscheme tender
 " }}}
 
 set modelines=1
