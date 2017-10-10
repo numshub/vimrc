@@ -13,11 +13,11 @@ Plug 'ron89/thesaurus_query.vim'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdcommenter'
 Plug 'davidhalter/jedi-vim', { 'for': 'python' }
-Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'numshub/riv.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-scriptease'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
