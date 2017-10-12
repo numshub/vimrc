@@ -3,6 +3,7 @@
 set nocompatible
 syntax enable
 set shellslash
+set encoding=utf-8
 " }}}
 
 "Visual improvements {{{

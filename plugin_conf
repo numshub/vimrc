@@ -2,7 +2,8 @@
 " Airline
 
 let g:airline_detect_spell=1
-let g:airline_theme = 'tender'
+let g:airline_powerline_fonts=1
+let g:airline_theme = 'tenderplus'
 
 " NERDTree
 
