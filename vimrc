@@ -29,7 +29,7 @@ nnoremap gV `[v`]
 let mapleader = ','
 
 if (has("termguicolors"))
- set termguicolors
+  set termguicolors
 endif
 
 " }}}
