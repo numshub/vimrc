@@ -20,4 +20,5 @@ Plug 'numshub/riv.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-scriptease'
 Plug 'ryanoasis/vim-devicons'
+Plug 'easymotion/vim-easymotion'
 call plug#end()
