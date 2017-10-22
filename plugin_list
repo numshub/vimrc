@@ -11,7 +11,7 @@ Plug 'sjl/gundo.vim'
 Plug 'mattn/emmet-vim'
 Plug 'ron89/thesaurus_query.vim'
 Plug 'tpope/vim-surround'
-Plug 'scrooloose/nerdcommenter'
+Plug 'tomtom/tcomment_vim'
 Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
