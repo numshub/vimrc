@@ -13,6 +13,7 @@ Plug 'ron89/thesaurus_query.vim'
 Plug 'tpope/vim-surround'
 Plug 'tomtom/tcomment_vim'
 Plug 'davidhalter/jedi-vim', { 'for': 'python' }
+Plug 'tell-k/vim-autopep8', {'for': 'python'}
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
@@ -22,4 +23,5 @@ Plug 'tpope/vim-scriptease'
 Plug 'ryanoasis/vim-devicons'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-repeat'
+Plug 'ervandew/supertab'
 call plug#end()
