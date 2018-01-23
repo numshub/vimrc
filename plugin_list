@@ -17,7 +17,7 @@ Plug 'tell-k/vim-autopep8', {'for': 'python'}
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
-Plug 'numshub/riv.vim'
+Plug 'gu-fan/riv.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-scriptease'
 Plug 'ryanoasis/vim-devicons'
