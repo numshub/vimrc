@@ -2,3 +2,4 @@ plugged/
 *.swp
 tmp/
 undo/
+autoload/*.old
