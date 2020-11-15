@@ -2,7 +2,7 @@
 
 set nocompatible
 syntax enable
-set shellslash
+"set shellslash
 set encoding=utf-8
 " }}}
 
@@ -16,7 +16,7 @@ set wildmenu
 set guioptions-=T " No toolbar
 
 if has('win32') || has ('win64')
-        set guifont=SauceCodePro_NF:h11:cANSI:qDRAFT
+        set guifont=CaskaydiaCove_NF:h12:cANSI
 else
         set guifont=Fira\ Code\ Regular\ 14
 endif
@@ -124,6 +124,7 @@ source $VIMHOME/plugin_conf
 
 colorscheme tender
 " }}}
+
 
 set modelines=1
 " vim:foldmethod=marker:foldlevel=0
