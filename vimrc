@@ -16,7 +16,7 @@ set wildmenu
 set guioptions-=T " No toolbar
 
 if has('win32') || has ('win64')
-        set guifont=CaskaydiaCove_NF:h12:cANSI
+        set guifont=CaskaydiaCove_NFM:h12:cANSI
 else
         "set guifont=Fira\ Code\ Regular\ 14
         set guifont=CaskaydiaCove\ Nerd\ Font\ 12
@@ -123,7 +123,7 @@ source $VIMHOME/plugin_conf
 
 "Colors {{{
 
-colorscheme tender
+colorscheme onehalfdark
 " }}}
 
 
